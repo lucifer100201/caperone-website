@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.fShipping-container{
+  background-color: darkgreen;
+}
+
+.fShipping {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  color: white;
+  height: 30px;
+  font-family: Poppins;
+}
+
+
+.free-shipping {
+  font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    flex: auto 1;
+    letter-spacing: 0;
+    text-align: center;
+
+}
+
+.call-us {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  display: block;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0;
+  text-align: right;
+}
+
+.page-width {
+  max-width: 1200px;
+  padding: 0 20px;
+  margin: 0 auto;
+}

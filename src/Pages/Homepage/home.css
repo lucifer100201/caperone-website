@@ -1,0 +1,178 @@
+.c-categories {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: left;
+    color: #838383;
+    padding: 30px 15px;
+
+}
+
+.nav-width {
+    max-width: 1200px;
+    
+    margin: 0 auto;
+}
+
+.profile-width{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* profile name and profile image */
+
+.c-pName-pImg {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+   
+    gap: 16px;
+
+}
+
+
+.c-pName-pImg div {
+
+    border-radius: 50%;
+    width: 52px;
+    height: 52px;
+    background: #D9D9D9;
+}
+
+.view-product-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    max-width: 100%;
+}
+
+.my-account {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 30px;
+}
+
+.account-width{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.view-product-img button {
+    border: none;
+    width: 100%;
+    font-size: 18px;
+    margin-top: 10px;
+    height: 30px;
+    background-color: green;
+    color: white;
+}
+
+
+h3.c-myAccount-heading {
+    font-size: 32px;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 30px;
+
+}
+
+ul.c-accountList {
+    list-style: none;
+    font-size: 25px;
+    font-family: Poppins;
+    padding: 10px;
+    line-height: 40.5px;
+}
+
+a.myList {
+    text-decoration: none;
+}
+
+.viewProduct-buttons button {
+    font-size: 18px;
+    font-weight: 500;
+    width: 100%;
+    font-family: Poppins;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    height: 36px;
+}
+
+.viewProduct-buttons {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.view-title-rate {
+    line-height: 30px;
+}
+
+/* cart-component */
+.cart-components {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.view-product {
+    display: flex;
+    flex-direction: column;
+    width: 24%;
+    margin-top: 75px;
+    gap: 1em;
+}
+
+.view-title-rate {
+    line-height: 25px;
+}
+
+.view-product-img img {
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 15px;
+    background-size: cover;
+}
+
+.plant-imgDes p {
+    font-size: 15px;
+    text-align: justify;
+}
+
+.plant-imgDes img {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.footer-page {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.footer-container {
+    background: #F0FFE5;
+    margin-top: 40px;
+}
+
+
+.account-fields {
+    width: 24%;
+    border-right: 1px solid black;
+}
+
+.all-order-container{
+    width: 45%;
+    margin: 0 25px;
+}
